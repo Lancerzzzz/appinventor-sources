@@ -150,5 +150,5 @@
   <!-- Armenian -->
   <extend-property name="locale" values="hy"/>
 
-  <set-property-fallback name="locale" value="en"/>
+  <set-property-fallback name="locale" value="zh_CN"/>
 </module>

@@ -289,7 +289,7 @@ public class LoginServlet extends HttpServlet {
     String autoload = params.get("autoload");
 
     if (locale == null) {
-      locale = "en";
+      locale = "zh_CN";
     }
 
     ResourceBundle bundle = ResourceBundle.getBundle("com/google/appinventor/server/loginmessages", new Locale(locale));
