@@ -52,7 +52,7 @@
          "example.com:8888" would mean the Rendezvous Server would be querired
          on http://example.com:8888/rendezvous/. -->
 
-    <property name="use.rendezvousserver" value=""/>
+    <property name="use.rendezvousserver" value="http://localhost:80/rendezvous"/>
 
     <!-- set to true if users should not be allowed to access the App
          Inventor server unless they are listed in the appengine/war/whitelist file -->
